@@ -2,7 +2,7 @@ body {
     display: block;
     background-attachment: fixed;
     background-size: 100%;
-    background-color: burlywood;
+    background-color: green;
     background-position: center;
     width: 100%;
     height: 100%;
@@ -13,18 +13,29 @@ body {
     color: black;
 }
 
-topnav {
-    
-    background-attachment: fixed;
-    background-color: white;
-    background-size: 100%;
-    border: 5px solid black;
-
+* {
+    box-sizing: border-box;
 }
 
-header {
+.topnav {
+    background-position: center;
+    background-attachment: fixed;
+    background-color: bisque;
+    background-size: 100%;
+    width: 100%;
+    height: 150px;
+    margin-right: 5px;
+    border: 5px solid black;
+    border-radius: 20%;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.header {
     display: -webkit-box;
     background-position: float;
+    background-color: green;
+    border: 2px solid red;
     color: white;
 }
 
@@ -33,4 +44,72 @@ h1 {
     background-size: fixed;
     border: 1% solid black;
     color: white;
+}
+
+.btn {
+    position: fixed;
+    background-color: grey;
+    background-size: auto;
+    color: whitesmoke;
+}
+
+.dropdown {
+    display: block;
+    position: absolute;
+    color: white;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25%;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 10px;
+    border-radius: 40%;
+    border: 4px double white;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    left: 100px;
+    z-index: 1;
+}
+button {
+    border-radius: 50%;
+    opacity: 0.9;
+}
+button:hover {
+    border-radius: 80%;
+    opacity: 0.1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.gallery {
+    display:inline-block;
+    background-size: 100%;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 5% 5%;
+    width: 600px;
+    height: 50px;
+}
+row  {
+    background-size: 100%;
+   background-color: blanchedalmond;
+   padding: 1% 2%;
+}
+
+.vid {
+
+    display: float;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
 }
