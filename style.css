@@ -75,10 +75,12 @@ h1 {
     left: 100px;
     z-index: 1;
 }
+
 button {
     border-radius: 50%;
     opacity: 0.9;
 }
+
 button:hover {
     border-radius: 80%;
     opacity: 0.1;
@@ -87,8 +89,9 @@ button:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .gallery {
-    display:inline-block;
+    display: inline-block;
     background-size: 100%;
     background-position: center;
     background-color: rgba(255, 255, 255, 0.5);
@@ -100,10 +103,13 @@ button:hover {
     width: 600px;
     height: 50px;
 }
-row  {
+
+.row {
     background-size: 100%;
-   background-color: blanchedalmond;
-   padding: 1% 2%;
+    background-color: blanchedalmond;
+    padding: 1% 2%;
+    width: 30%;
+    height: 30%;
 }
 
 .vid {
