@@ -1,0 +1,36 @@
+body {
+    display: block;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: burlywood;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 30px;
+    color: black;
+}
+
+topnav {
+    
+    background-attachment: fixed;
+    background-color: white;
+    background-size: 100%;
+    border: 5px solid black;
+
+}
+
+header {
+    display: -webkit-box;
+    background-position: float;
+    color: white;
+}
+
+h1 {
+    display: block;
+    background-size: fixed;
+    border: 1% solid black;
+    color: white;
+}
