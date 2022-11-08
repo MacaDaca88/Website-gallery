@@ -1,5 +1,5 @@
 function myFunction(){
-    var popup = document.getElementById(popup);
+    var popup = document.getElementById(dropdown-content);
     popup.classList.toggle("show");
 }
 function myFunction() {
